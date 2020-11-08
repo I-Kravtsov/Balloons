@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.game {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    grid-template-columns: 1fr 200px;
+}
+
+.game__main {
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to top, skyblue, white);
+}
+
+.game__panel {
+    background-color: teal;
+    padding: 20px;
+}
